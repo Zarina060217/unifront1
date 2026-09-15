@@ -5,61 +5,99 @@
     <title>My first webpage</title>
 </head>   
 <body>
-    <h1>Zarina Abibulla</h1>
-    <h2>IT-2501</h2>
-    <h3>About me</h3>
-    <p>I am a computer science student passionate about backend development and web technologies.</p>
+    <div class="header">
+        <h1 id="main_heading">Zarina Abibulla</h1>
+        <h2>Frontend IT-2501</h2>
+    </div>
 
-    <p><strong> My Hobbies:</strong></p>
-    <ol>
-        <li>Exploring World history</li>
-        <li>Listening orchestral and latin music</li>
-        <li>Hiking</li>
-        <li>Swimming</li>
-        <li>Cooking and eating</li>
-        <li>Watching movies, dunhua</li>
-        <li>Watching F1 streams</li>
-    </ol>
+    <div class="main">
+        <table border="1" width="100%">
+            <tr>
+                <td width="35%" valign="top">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#hobbies">My Hobbies</a></li>
+                        <li><a href="#websites">My Favourite Websites</a></li>
+                        <li><a href="#photo">Photo of my cat</a></li>
+                        <li><a href="#schedule">Lessons</a></li>
+                        <li><a href="#mood">Mood</a></li>
+                        <li><a href="#form">Form</a></li>
+                    </ul>
+                </td>
 
-    <p><strong>My Favourite websites: </strong></p>
-    <ul>
-        <li><a href="https://www.formula1.com/" target="_blank">Official F1 website</a></li>
-        <li><a href="https://www.enriqueiglesias.com/" target="_blank">Official website of Enrique Iglesias</a></li>
-        <li><a href="https://islam.global/verouchenie/koran/sura-12-yusuf-iosif-/" target="_blank">Favourite website for reading Quran</a></li>
-    </ul>
+                <td width="65%" valign="top">
+                    <h3 id="about">About me</h3>
+                    <p style="color:navy">Wo ai mao</p>
 
-    <p>My beloved cat - Белка</p>
-    <img src="mycat.jpg.jpg" width="300" alt="My Cat Belka">
-    <br><br>
-    <button>Click me</button>
-    <hr>
-    <h3>My class shedule</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Subject</th>
-                <th>Day</th>
-                <th>Time</th>
+                    <h3 id="hobbies">My Hobbies:</h3>
+                    <ol>
+                        <li>Exploring World history</li>
+                        <li>Listening orchestral and latin music</li>
+                        <li>Hiking</li>
+                        <li>Swimming</li>
+                        <li>Cooking and eating</li>
+                        <li>Watching movies, dunhua</li>
+                        <li>Watching F1 streams</li>
+                    </ol>
+
+                    <h3 id="websites">My Favourite Websites:</h3>
+                    <ul>
+                        <li><a href="https://www.formula1.com/">Official F1 website</a></li>
+                        <li><a href="https://www.enriqueiglesias.com/">Official website of Enrique Iglesias</a></li>
+                        <li><a href="https://islam.global/verouchenie/koran/sura-12-yusuf-iosif-/">Favourite website for reading Quran</a></li>
+                    </ul>
+                    
+                    <h3 id="photo">My beloved cat - Белка</h3>
+                    <img src="mycat.jpg.jpg" width="300" alt="My cat Belka">
+                    <br><br>
+                    <button>Click me</button>
+                    <hr>
+                    <h3 id="schedule">My class schedule</h3>
+                        <table border="1">
+                            <tr>
+                                <th>Subject</th>
+                                <th>Day</th>
+                                <th>Time</th>
+                            </tr>
+                            <tr>
+                                <td>Discrete Mathematics</td>
+                                <td>Monday</td>
+                                <td>14:00</td>
+                            </tr>
+                            <tr>
+                                <td>Frontend</td>
+                                <td>Tuesday</td>
+                                <td>14:00</td>
+                            </tr>
+                            <tr>
+                                <td>Introduction to Functional Programming</td>
+                                <td>Friday</td>
+                                <td>15:00</td>
+                            </tr>
+                        </table>
+                    <h3 id="mood">My mood</h3>
+                    <p>Today i am a little bit delusional, touched,and happy🥹🤲🫂🌌❤️</p>
+
+                    <h3 id="form">Form</h3>
+                    <form>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="fullname" required><br><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="color">Favourite colour</label><br>
+                        <input type="color" id="color" name="color"><br><br>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </td>
             </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Discrete Mathematics</td>
-                <td>Monday</td>
-                <td>14:00</td>
-            </tr>
-            <tr>
-                <td>Web technologies</td>
-                <td>Tuesday</td>
-                <td>14:00</td>
-            </tr>
-            <tr>Introduction to Functional Programming</tr>
-            <tr>
-                <td>Introduction to Functional Programming</td>
-                <td>Friday</td>
-                <td>15:00</td>
-            </tr>
-        </tbody>
-    </table>
+        </table>
+    </div>
+    <div class="footer">
+        <p>Я скучаю по фрейворку Vue.js</p>
+    </div>
 </body> 
 </html>
