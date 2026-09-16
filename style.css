@@ -12,6 +12,56 @@ p{
     font-family:Geoargia, serif;
 }
 .highlight{
-    background-color:darkslateblue;
+    background-color:lightgreen;
     font-family:Times New Roman, Times, serif;
+}
+.header{
+    background-color:lightgray;
+    padding: 10px;
+    border: 2px solid green;
+    margin: 20px;
+}
+.main{
+    background-color:white;
+    padding:20px;
+    border:4px solid blue;
+    margin:20px;
+}
+.footer{
+    background-color:lightgray;
+    padding:10px;
+}
+.pos-static{
+    position:static;
+}
+.pos-relative{
+    position:relative;
+    top:10px;
+    left:10px;
+}
+.pos-absolute{
+    position:absolute;
+    top:30px;
+    left:30px;
+}
+.h1{
+    font-size:3rem;
+}
+.h2{
+    font-size:3em;
+}
+.h3{
+    font-size:20px;
+}
+img{
+    width:50%;
+}
+.box-left{
+    float:left;
+}
+.box-right{
+    float:right;
+}
+.clear box{
+    clear:both;
 }
