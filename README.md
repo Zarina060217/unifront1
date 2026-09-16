@@ -62,5 +62,30 @@ In this section, I applied different CSS styling techniques to customize the pre
   * <img width="1375" height="767" alt="image" src="https://github.com/user-attachments/assets/7cfe7fa6-a8df-447f-b396-06e4f50a3dc1" />
   * <img width="1356" height="747" alt="image" src="https://github.com/user-attachments/assets/d8d830bc-e80b-4fd0-82dd-79c2f3f00719" />
 
+---
 
+## Part 4: Advanced CSS, Layouts & Positioning
 
+In this final section, I implemented structural organization, custom positioning, and layout techniques:
+
+* **Favicon Integration:** Added a custom browser tab icon using `<link rel="icon" type="image/jpg" href="tiger.jpg">`.
+* **HTML Divs & Sectioning:** Grouped content into structural divisions (`.header`, `.main`, and `.footer`) to create a clear layout hierarchy with distinct background styling and padding.
+* **Box Model Application:** Configured `margin`, `padding`, and `border` properties across layout containers and table elements to control spatial flow and elements spacing.
+* **CSS Positioning:** Demonstrated different CSS positioning types:
+  * `static`: Standard block rendering flow for base elements.
+  * `relative`: Offset positioning relative to the element's normal flow.
+  * `absolute`: Precise layout placement positioned inside a relative container.
+* **CSS Sizing Units:** Utilized a combination of absolute (`px`) and relative (`%`, `em`, `rem`) units for flexible element sizing and responsive typography.
+* **Float & Clear:** Created a two-column side-by-side box section using `float: left` and `float: right`, paired with a `clear: both` clearfix element to prevent parent container collapse.
+
+### Part 4 Screenshots
+* <img width="2879" height="1685" alt="image" src="https://github.com/user-attachments/assets/77311fd0-1706-4be0-b05b-d9fde292edac" />
+*<img width="2879" height="1648" alt="image" src="https://github.com/user-attachments/assets/4f028bfb-f3cb-4965-bcdc-ac44b821cab4" />
+*<img width="2874" height="1731" alt="image" src="https://github.com/user-attachments/assets/4f24a861-2df3-4000-818f-7131828139b1" />
+*<img width="2879" height="1724" alt="image" src="https://github.com/user-attachments/assets/b81fafa1-5e72-4ec9-b3b8-921cd351ab2c" />
+*<img width="2088" height="1260" alt="image" src="https://github.com/user-attachments/assets/e94f48a6-f1a1-4092-84e0-43b5e87ab9be" />
+* **Style css
+* <img width="1260" height="1729" alt="image" src="https://github.com/user-attachments/assets/63d822be-c3db-4cf1-a716-bc96d96e6519" />
+*<img width="1082" height="1200" alt="image" src="https://github.com/user-attachments/assets/d188a206-164d-4a00-bc8a-a715bc293d1f" />
+
+URL to visual representation of code:https://zarina060217.github.io/unifront1/?fullname=Zarina&email=1702%40trz.nis.edu.kz&color=%23000000#form
