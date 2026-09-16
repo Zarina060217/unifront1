@@ -79,13 +79,15 @@ In this final section, I implemented structural organization, custom positioning
 * **Float & Clear:** Created a two-column side-by-side box section using `float: left` and `float: right`, paired with a `clear: both` clearfix element to prevent parent container collapse.
 
 ### Part 4 Screenshots
-* <img width="2879" height="1685" alt="image" src="https://github.com/user-attachments/assets/77311fd0-1706-4be0-b05b-d9fde292edac" />
-*<img width="2879" height="1648" alt="image" src="https://github.com/user-attachments/assets/4f028bfb-f3cb-4965-bcdc-ac44b821cab4" />
-*<img width="2874" height="1731" alt="image" src="https://github.com/user-attachments/assets/4f24a861-2df3-4000-818f-7131828139b1" />
-*<img width="2879" height="1724" alt="image" src="https://github.com/user-attachments/assets/b81fafa1-5e72-4ec9-b3b8-921cd351ab2c" />
-*<img width="2088" height="1260" alt="image" src="https://github.com/user-attachments/assets/e94f48a6-f1a1-4092-84e0-43b5e87ab9be" />
+*<img width="1439" height="863" alt="image" src="https://github.com/user-attachments/assets/004dc316-51a8-4ff6-9d88-db0d1f0f41df" />
+*<img width="1439" height="861" alt="image" src="https://github.com/user-attachments/assets/fda5578d-30fc-4eed-b123-244127b702e7" />
+*<img width="1439" height="864" alt="image" src="https://github.com/user-attachments/assets/22125b7b-ac73-41aa-99d2-05f4461992a1" />
+*<img width="1437" height="863" alt="image" src="https://github.com/user-attachments/assets/97152db9-1776-4f89-a4b6-070048d69a5f" />
+*<img width="797" height="774" alt="image" src="https://github.com/user-attachments/assets/503fe9d3-02fb-435b-b355-5e6d4c724b2e" />
+
 * **Style css
-* <img width="1260" height="1729" alt="image" src="https://github.com/user-attachments/assets/63d822be-c3db-4cf1-a716-bc96d96e6519" />
-*<img width="1082" height="1200" alt="image" src="https://github.com/user-attachments/assets/d188a206-164d-4a00-bc8a-a715bc293d1f" />
+* <img width="489" height="865" alt="image" src="https://github.com/user-attachments/assets/df1e4944-8d07-406b-98b2-944709fdd088" />
+* <img width="362" height="735" alt="image" src="https://github.com/user-attachments/assets/d7d363e9-d798-4441-979b-5d501139f672" />
+
 
 URL to visual representation of code:https://zarina060217.github.io/unifront1/?fullname=Zarina&email=1702%40trz.nis.edu.kz&color=%23000000#form
